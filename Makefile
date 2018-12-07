@@ -1,6 +1,6 @@
-graalversion = graalvm-ce-1.0.0-rc9
-graalbaseurl = https://github.com/oracle/graal/releases/download/vm-1.0.0-rc9 
-graalvmsha256 = 39ae49285044352b7ead2a4277cb286f5a3be84611b849e8f21b86f37205bb61
+graalversion = graalvm-ce-1.0.0-rc10
+graalbaseurl = https://github.com/oracle/graal/releases/download/vm-1.0.0-rc10 
+graalvmsha256 = dba5d874fe8bc5baf8f0fc187c9e8734ca5141b4f4f8a3b5b1f84326f3fbdc6d
 dirs:
 	mkdir -p stamps
 
@@ -13,4 +13,3 @@ stamps/build: dirs
 
 clean:
 	rm -r stamps/*
-	rm $(graalpackage)
